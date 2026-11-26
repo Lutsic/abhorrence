@@ -1,2 +1,2 @@
-# abhorrence
+# Abhorrence
 A minecraft modpack.
