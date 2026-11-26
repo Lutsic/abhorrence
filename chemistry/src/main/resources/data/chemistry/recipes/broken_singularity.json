@@ -1,0 +1,18 @@
+{
+  "type": "appliedenergistics2:inscriber",
+  "mode": "press",
+  "result": {
+    "item": "chemistry:broken_singularity"
+  },
+  "ingredients": {
+    "top": {
+      "item": "appliedenergistics2:quantum_entangled_singularity"
+    },
+    "middle": {
+      "item": "mekanism:pellet_antimatter"
+    },
+    "bottom": {
+      "item": "appliedenergistics2:quantum_entangled_singularity"
+    }
+  }
+}

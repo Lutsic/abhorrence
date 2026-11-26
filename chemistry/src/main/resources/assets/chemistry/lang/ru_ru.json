@@ -1,0 +1,47 @@
+{
+  "itemGroup.chemistry": "Abhorrence: Химия",
+
+  "item.chemistry.asteroid_teleporter": "Телепорт на астероид",
+  "item.chemistry.broken_singularity": "Сломанная сингулярность",
+
+  "item.chemistry.hydrogen_bucket": "Ведро водорода",
+  "block.chemistry.solid_hydrogen": "Блок кристаллов водорода",
+  "item.chemistry.solid_hydrogen_item": "Кучка кристаллов водорода",
+  "block.chemistry.hydrogen": "Жидкий водород",
+  "fluid.chemistry.hydrogen": "Жидкий водород",
+
+  "item.chemistry.helium_bucket": "Ведро гелия",
+  "block.chemistry.solid_helium": "Блок кристаллов гелия",
+  "item.chemistry.solid_helium_item": "Кучка кристаллов гелия",
+  "block.chemistry.helium": "Жидкий гелий",
+  "fluid.chemistry.helium": "Жидкий гелий",
+  "gas.chemistry.helium": "Гелий",
+
+  "item.chemistry.beryllium_bucket": "Ведро бериллия",
+  "block.chemistry.solid_beryllium": "Блок бериллия",
+  "item.chemistry.solid_beryllium_item": "Слиток бериллия",
+  "item.chemistry.solid_beryllium_nugget": "Самородок бериллия",
+  "item.chemistry.solid_beryllium_dust": "Пыль берилия",
+  "block.chemistry.beryllium": "Жидкий бериллий",
+  "fluid.chemistry.beryllium": "Жидкий бериллий",
+  "gas.chemistry.beryllium": "Бериллий",
+
+  "item.chemistry.lithium_bucket": "Ведро лития",
+  "block.chemistry.solid_lithium": "Блок лития",
+  "item.chemistry.solid_lithium_item": "Слиток лития",
+  "item.chemistry.solid_lithium_nugget": "Самородок лития",
+  "block.chemistry.lithium": "Жидкий литий",
+  "fluid.chemistry.lithium": "Жидкий литий",
+
+  "item.chemistry.boron_bucket": "Ведро бора",
+  "block.chemistry.solid_boron": "Блок бора",
+  "item.chemistry.solid_boron_item": "Порошок бора",
+  "block.chemistry.boron": "Жидкий бор",
+  "fluid.chemistry.boron": "Жидкий бор",
+  "gas.chemistry.boron": "Бор",
+
+  "item.chemistry.carbon_bucket": "Ведро углерода",
+  "block.chemistry.carbon": "Жидкий углерод",
+  "fluid.chemistry.carbon": "Жидкий углерод",
+  "gas.chemistry.carbon": "Углерод"
+}

@@ -1,0 +1,211 @@
+
+package com.abhorrence.chemistry.registry;
+
+import com.abhorrence.chemistry.ChemistryMod;
+import com.abhorrence.chemistry.environment.AsteroidTeleporterItem;
+import net.minecraft.item.*;
+import net.minecraft.util.RegistryKey;
+import net.minecraft.util.ResourceLocation;
+import net.minecraft.util.registry.Registry;
+import net.minecraft.world.World;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.RegistryObject;
+
+public class ModItems {
+
+    public static final DeferredRegister<Item> ITEMS =
+            DeferredRegister.create(
+                    ForgeRegistries.ITEMS,
+                    ChemistryMod.MOD_ID
+            );
+
+    public static final RegistryObject<Item> ASTEROID_TELEPORTER =
+            ITEMS.register("asteroid_teleporter",
+                    () -> new AsteroidTeleporterItem(
+                            new Item.Properties().group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> BROKEN_SINGULARITY =
+            ITEMS.register("broken_singularity",
+                    () -> new Item(
+                            new Item.Properties().group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> HYDROGEN_BUCKET =
+            ITEMS.register("hydrogen_bucket",
+                    () -> new BucketItem(
+                            ModFluids.HYDROGEN,
+                            new Item.Properties()
+                                    .containerItem(Items.BUCKET)
+                                    .maxStackSize(1)
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_HYDROGEN =
+            ITEMS.register("solid_hydrogen",
+                    () -> new BlockItem(
+                            ModBlocks.SOLID_HYDROGEN.get(),
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_HYDROGEN_ITEM =
+            ITEMS.register("solid_hydrogen_item",
+                    () -> new Item(
+                            new Item.Properties()
+                            .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> HELIUM_BUCKET =
+            ITEMS.register("helium_bucket",
+                    () -> new BucketItem(
+                            ModFluids.HELIUM,
+                            new Item.Properties()
+                                    .containerItem(Items.BUCKET)
+                                    .maxStackSize(1)
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_HELIUM =
+            ITEMS.register("solid_helium",
+                    () -> new BlockItem(
+                            ModBlocks.SOLID_HELIUM.get(),
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_HELIUM_ITEM =
+            ITEMS.register("solid_helium_item",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> LITHIUM_BUCKET =
+            ITEMS.register("lithium_bucket",
+                    () -> new BucketItem(
+                            ModFluids.LITHIUM,
+                            new Item.Properties()
+                                    .containerItem(Items.BUCKET)
+                                    .maxStackSize(1)
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_LITHIUM =
+            ITEMS.register("solid_lithium",
+                    () -> new BlockItem(
+                            ModBlocks.SOLID_LITHIUM.get(),
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_LITHIUM_ITEM =
+            ITEMS.register("solid_lithium_item",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_LITHIUM_NUGGET =
+            ITEMS.register("solid_lithium_nugget",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> BERYLLIUM_BUCKET =
+            ITEMS.register("beryllium_bucket",
+                    () -> new BucketItem(
+                            ModFluids.BERYLLIUM,
+                            new Item.Properties()
+                                    .containerItem(Items.BUCKET)
+                                    .maxStackSize(1)
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_BERYLLIUM =
+            ITEMS.register("solid_beryllium",
+                    () -> new BlockItem(
+                            ModBlocks.SOLID_BERYLLIUM.get(),
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_BERYLLIUM_ITEM =
+            ITEMS.register("solid_beryllium_item",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_BERYLLIUM_NUGGET =
+            ITEMS.register("solid_beryllium_nugget",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_BERYLLIUM_DUST =
+            ITEMS.register("solid_beryllium_dust",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> BORON_BUCKET =
+            ITEMS.register("boron_bucket",
+                    () -> new BucketItem(
+                            ModFluids.BORON,
+                            new Item.Properties()
+                                    .containerItem(Items.BUCKET)
+                                    .maxStackSize(1)
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_BORON =
+            ITEMS.register("solid_boron",
+                    () -> new BlockItem(
+                            ModBlocks.SOLID_BORON.get(),
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> SOLID_BORON_ITEM =
+            ITEMS.register("solid_boron_item",
+                    () -> new Item(
+                            new Item.Properties()
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+
+    public static final RegistryObject<Item> CARBON_BUCKET =
+            ITEMS.register("carbon_bucket",
+                    () -> new BucketItem(
+                            ModFluids.CARBON,
+                            new Item.Properties()
+                                    .containerItem(Items.BUCKET)
+                                    .maxStackSize(1)
+                                    .group(ModItemGroups.CHEMISTRY)
+                    )
+            );
+}

@@ -1,2 +1,6 @@
-
 build/
+
+chemistry/build/
+chemistry/run/
+chemistry/.idea/
+chemistry/.gradle/
