@@ -3,4 +3,14 @@
 rm -rf build
 mkdir build
 cp -a game_files/. build
-echo Game files copied into build/ directory.
+echo "[General] Game files copied into build directory."
+
+mkdir build/resourcepacks
+
+cd resourcepacks/AE2Textures
+zip -r -9 "../../build/resourcepacks/AE2 textures backport.zip" . > /dev/null
+cd ../../
+echo "[Resourcepacks] Added AE2Textures to build."
+
+cp -a build/. "$1"
+echo "[General] Build finished"

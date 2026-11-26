@@ -33,7 +33,7 @@ with open("build.config", "r") as f:
                 break
     if not found:
         raise ValueError("Valid target .minecraft folder path not found in build.config file.")
-    print("Target .minecraft folder:", target_folder)
+    print("[General] Target .minecraft folder:", target_folder)
 
 subprocess.run(
     ["bash", "modpack_builder/build.sh", target_folder],

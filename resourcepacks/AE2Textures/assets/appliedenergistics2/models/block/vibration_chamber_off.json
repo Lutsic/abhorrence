@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "appliedenergistics2:block/generics/bottom",
+    "east": "appliedenergistics2:block/vibration_chamber_side",
+    "north": "appliedenergistics2:block/vibration_chamber_front",
+    "particle": "appliedenergistics2:block/vibration_chamber_front",
+    "south": "appliedenergistics2:block/vibration_chamber_back",
+    "up": "appliedenergistics2:block/vibration_chamber_top",
+    "west": "appliedenergistics2:block/vibration_chamber_side"
+  }
+}
