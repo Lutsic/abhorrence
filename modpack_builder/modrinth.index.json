@@ -81,6 +81,126 @@
     },
     {
       "downloads": [
+        "https://cdn.modrinth.com/data/Wnxd13zP/versions/UutzgwbZ/Clumps-6.0.0.28.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 18397,
+      "hashes": {
+        "sha1": "4992a8d2d0d0c8d01f72f2a55af3e625c94e7db2",
+        "sha512": "f38e416c613c2686b458ab9b18c9db3ae14ed1cd887ebd26e4f8914ae16c6dea64bc9210f48b744d8aef598236bdf3673a13536c2681cc4eecc72aabe3b3eb0a"
+      },
+      "path": "mods/Clumps-6.0.0.28.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/aC3cM3Vq/versions/2.14/MouseTweaks-2.14-mc1.16.2.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 58249,
+      "hashes": {
+        "sha1": "5f2366c650c102c71e98c9445f86a266ba20e1e4",
+        "sha512": "141b6988224f81f485e257d007a4632f50c5c6102742e0ba9f2e5911c19d5b0eae60ddac12326ee14deca2103d8f98627bf5ae48b51e7e532fcd26d3d0b0815c"
+      },
+      "path": "mods/MouseTweaks-2.14-mc1.16.2.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/9s6osm5g/versions/i0ExoqTD/cloth-config-4.17.101-forge.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 1452545,
+      "hashes": {
+        "sha1": "56bcf4bcb80ed8701436f36d24be72fbec3f944f",
+        "sha512": "3a5755660b09408b5cce7ba8232f1edb5d5e5acbed58577da5522e5c84023150445146badd7133346b6abe57d8b22a8f578839c0e9a3df0183c9b860ace17fa4"
+      },
+      "path": "mods/cloth-config-4.17.101-forge.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/LQ3K71Q1/versions/5VqjJ4M6/dynamic-fps-3.4.3%2Bminecraft-1.16.5-forge.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 255239,
+      "hashes": {
+        "sha1": "67c402d11982542c9c804ef9ff3dab707a6705db",
+        "sha512": "1c0a8aba373dcd37afc238abc03a083ecc58bad8c440b3c273ecfa42ead20ab1505730ee04199b2e9508f56b5773a3c9ea46a80d2279f868111cc6e742e2fff6"
+      },
+      "path": "mods/dynamic-fps-3.4.3+minecraft-1.16.5-forge.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/NNAgCjsB/versions/1.5.2-forge-1.16/entityculling-forge-mc1.16.5-1.5.2.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "unsupported"
+      },
+      "fileSize": 46532,
+      "hashes": {
+        "sha1": "01a838e9fc804dee41fca6045012569fc5df42ce",
+        "sha512": "90d9f430d17701ab41276d5f970f078192e7ef87e57f6d1ca7dcb0710ab5a19c07c5bd9762e1ab5cb4cd46aa391d3ecdadbae405936bb563264ee9155f2fa0bc"
+      },
+      "path": "mods/entityculling-forge-mc1.16.5-1.5.2.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/uXXizFIs/versions/6gwDuh90/ferritecore-2.1.1-forge.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 108557,
+      "hashes": {
+        "sha1": "3ae8dbe663156a8dec621d255856356444586905",
+        "sha512": "129eaec4743214258ed2f426192eba65f8268697fd37a0fc67f868d22b2eaea4d60d8e29100b034a00347672f830f3c4a4a3a94d2307d02f60c00ff4bd27f6a7"
+      },
+      "path": "mods/ferritecore-2.1.1-forge.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/NRjRiSSD/versions/xYL9nIiR/memoryleakfix-forge-pre1.17-1.1.5.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 225324,
+      "hashes": {
+        "sha1": "99658ba320539c41e4c4c4de5f2e8c1f40985bff",
+        "sha512": "e6dbbe9f835f33d138ac252d92036dd66bfdc702b08bcca5e390deafbb485c37d3ca60b1da3a58d0bf24c890d2cc7e0445061a28f993d130113d9f0ed3b3c078"
+      },
+      "path": "mods/memoryleakfix-forge-pre1.17-1.1.5.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/nmDcB62a/versions/Cc0b1kXl/modernfix-forge-5.18.0%2Bmc1.16.5.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 867079,
+      "hashes": {
+        "sha1": "bd020d379e36ed8a2568fa76d998aff265cb57bb",
+        "sha512": "5db2515339eb1727ec5cb232ca560f0ef689348319a5bb1f2c7e4df1ec4fb2077363c5a00929b98abc2dd4e94c76b4b729b4940602cf9fb778c5e002a9a46ad9"
+      },
+      "path": "mods/modernfix-forge-5.18.0+mc1.16.5.jar"
+    },
+    {
+      "downloads": [
         "https://cdn.modrinth.com/data/ncAcdgk7/versions/Ng0gixug/pneumaticcraft-repressurized-1.16.5-2.15.12-13.jar"
       ],
       "env": {

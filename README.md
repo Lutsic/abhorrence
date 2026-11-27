@@ -5,7 +5,7 @@ A minecraft modpack.
 The modpack is still under active development and is not meant to be played in its current state
 
 ## Mods
-7 external mods, 8 total. [Detailed modlist](modlist.md)
+16 external mods, 17 total. [Detailed modlist](modlist.md)
 
 Game version: `1.16.5`, Modloader: `Forge 36.2.34`
 
