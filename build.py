@@ -11,10 +11,37 @@ parser.add_argument(
     help="Target .minecraft directory"
 )
 
+parser.add_argument(
+    "--no_resourcepacks",
+    action="store_true"
+)
+
+parser.add_argument(
+    "--no_chemistry",
+    action="store_true"
+)
+
+parser.add_argument(
+    "--no_external",
+    action="store_true"
+)
+
 args = parser.parse_args()
 
 found = False
 target_folder = ""
+no_resourcepacks = "0"
+no_chemistry = "0"
+no_external = "0"
+
+if args.no_resourcepacks:
+    no_resourcepacks = "1"
+
+if args.no_chemistry:
+    no_chemistry = "1"
+
+if args.no_external:
+    no_external = "1"
 
 if args.target != None:
     found = True
@@ -36,6 +63,6 @@ with open("build.config", "r") as f:
     print("[General] Target .minecraft folder:", target_folder)
 
 subprocess.run(
-    ["bash", "modpack_builder/build.sh", target_folder],
+    ["bash", "modpack_builder/build.sh", target_folder, no_resourcepacks, no_chemistry, no_external],
     check=True
 )
