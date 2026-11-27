@@ -22,5 +22,7 @@ mkdir build/mods/
 cp chemistry/build/libs/chemistry-*.jar build/mods/
 echo "[Chemistry] Mod compiled and added to build"
 
+python modpack_builder/external.py
+
 cp -a build/. "$1"
 echo "[General] Build finished"

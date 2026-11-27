@@ -1,0 +1,72 @@
+{
+  "dependencies": {
+    "forge": "36.2.34",
+    "minecraft": "1.16.5"
+  },
+  "files": [
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/tIm2nV03/versions/5.1.0-148/ImmersiveEngineering-1.16.5-5.1.0-148.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 9414280,
+      "hashes": {
+        "sha1": "3264b5e3047575faa32d9a32f70c0d0c8039ad37",
+        "sha512": "32ec77b58de89e0e572240672b1371b03ad3e906b9e2660dafc6fb92f3a7436c0e37f70fc36c1912377fb88b7df3f453dd95c4ea7ca2895f85ef45b20fa8b603"
+      },
+      "path": "mods/ImmersiveEngineering-1.16.5-5.1.0-148.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/Ce6I4WUE/versions/10.1.2.457/Mekanism-1.16.5-10.1.2.457.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 11181433,
+      "hashes": {
+        "sha1": "e7ec62394e8ac4b254c4e7cc57360903d7c35980",
+        "sha512": "6b906230132d900cd2d4c76061840793461a9565c32b06e9c63c4732d1308845666ee5ccf3ee970eecd647a1dda173d7f5d8bf893d5a0a812895a6b96c16a114"
+      },
+      "path": "mods/Mekanism-1.16.5-10.1.2.457.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/nU0bVIaL/versions/1.16.4-53.3-forge/Patchouli-1.16.4-53.3.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 593352,
+      "hashes": {
+        "sha1": "cf7c2efc013a0247be4c2ce3f3d6a553643e00f7",
+        "sha512": "761c1db33d3d81b077c5db9fadda57d213bd4b43e8e0a2678b3a8294ba0fbe5f45cef507c7d4b79d2dd165253925abddf837e7df2ff553d05987b97c4014e7bf"
+      },
+      "path": "mods/Patchouli-1.16.4-53.3.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/ncAcdgk7/versions/Ng0gixug/pneumaticcraft-repressurized-1.16.5-2.15.12-13.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 10127673,
+      "hashes": {
+        "sha1": "4e7368dc3836b42b3dc66651d67e0d84a9e1bfae",
+        "sha512": "981e67783a035d205a62de2c341ece1e9e9db4811055bbc39c83a0887cbe33dc7e77521eb61e9b2b1cb6cb08f2277212ba0d2636a126a835694f0e25af5f23b0"
+      },
+      "path": "mods/pneumaticcraft-repressurized-1.16.5-2.15.12-13.jar"
+    }
+  ],
+  "formatVersion": 1,
+  "game": "minecraft",
+  "name": "Abhorrence dev",
+  "versionId": "1.0.0"
+}

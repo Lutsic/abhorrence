@@ -4,6 +4,11 @@ A minecraft modpack.
 ## Current state
 The modpack is still under active development and is not meant to be played in its current state
 
+## Mods
+5 external mods, 6 total. [Detailed modlist](modlist.md)
+
+Game version: `1.16.5`, Modloader: `Forge 36.2.34`
+
 ## Build script
 The build script is intended for development, not for regular players. The script was written for Arch Linux, but it can also be used on other linux distributions. Make sure your system have Python and zip utility. If you still want to try it, here are the instructions:
 
@@ -22,3 +27,4 @@ python build.py
 
 ## Credits
 - [AE2 textures backport](resourcepacks/AE2Textures/credits.md)
+- [Mods in game_files/mods](game_files/mods/credits.md)
