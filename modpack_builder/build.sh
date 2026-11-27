@@ -13,7 +13,7 @@ cp -a game_files/. build
 echo "[General] Game files copied into build directory."
 
 if [ $2 == "0" ]; then
-    mkdir build/resourcepacks
+    mkdir -p build/resourcepacks
     cd resourcepacks/AE2Textures
     zip -r -9 "../../build/resourcepacks/AE2 textures backport.zip" . > /dev/null
     cd ../../
@@ -25,7 +25,7 @@ if [ $3 == "0" ]; then
     cd chemistry
     ./gradlew build > /dev/null
     cd ..
-    mkdir build/mods/
+    mkdir -p build/mods/
     cp chemistry/build/libs/chemistry-*.jar build/mods/
     echo "[Chemistry] Mod compiled and added to build"
 fi
