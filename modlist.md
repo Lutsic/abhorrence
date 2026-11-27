@@ -16,4 +16,10 @@
 6. **Applied Energistics 2** `8.4.7`
 [Curseforge](https://www.curseforge.com/minecraft/mc-mods/applied-energistics-2), [Modrinth](https://modrinth.com/mod/ae2), [Website](https://appliedenergistics.org/), [Github](https://github.com/AppliedEnergistics/Applied-Energistics-2).
 
-5 external mods, 6 total.
+7. **Block Physics Overhaul** `0.1.0`
+[Curseforge](https://www.curseforge.com/minecraft/mc-mods/block-physics-overhaul), [Modrinth](https://modrinth.com/mod/bpo).
+
+8. **SKDS Core** `0.2.0`
+[Cursefoge](https://www.curseforge.com/minecraft/mc-mods/skds-core), [Modrinth](https://modrinth.com/mod/skds-core).
+
+7 external mods, 8 total.

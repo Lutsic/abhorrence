@@ -51,6 +51,36 @@
     },
     {
       "downloads": [
+        "https://cdn.modrinth.com/data/hjcE1tku/versions/P7hr9gLR/bpo-1.16.5-0.1.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 133710,
+      "hashes": {
+        "sha1": "031eba07abb242ddac0752d3935be7dbb58e7590",
+        "sha512": "b4c71153bd470964ff3d00aca741d0d011795df10cfa43281535346a6b3fa330a32e2a547fd4abbeff18376135102464e22ecac0d7210966827adc297465367e"
+      },
+      "path": "mods/bpo-1.16.5-0.1.0.jar"
+    },
+    {
+      "downloads": [
+        "https://cdn.modrinth.com/data/Zj0nufqF/versions/k1u7ECMu/skds_core-1.16.5-0.2.0.jar"
+      ],
+      "env": {
+        "client": "required",
+        "server": "required"
+      },
+      "fileSize": 103808,
+      "hashes": {
+        "sha1": "a2b4461c538246f5216452b0f6c4903aa752f3fb",
+        "sha512": "eca01948404221461b8fcf1c658b5cd6f079c0faaaa6fa6111227baf6f60277419fae64e9b09c043ba808f0320553a5c9605b7844d137e8ca2b85acdef261ab9"
+      },
+      "path": "mods/skds_core-1.16.5-0.2.0.jar"
+    },
+    {
+      "downloads": [
         "https://cdn.modrinth.com/data/ncAcdgk7/versions/Ng0gixug/pneumaticcraft-repressurized-1.16.5-2.15.12-13.jar"
       ],
       "env": {
